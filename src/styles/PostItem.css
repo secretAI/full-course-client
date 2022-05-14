@@ -1,0 +1,98 @@
+.post {
+  position:relative;
+  width: 800px;
+  height: auto;
+  border: 2px solid teal;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+.post-controls, 
+.post-content,
+.post-info,
+.buttons {
+  width: inherit;
+  padding-inline: 10px;
+  font-family: 'Raleway', sans-serif;
+  margin: 15px 0;
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 60px;
+}
+
+.separator {
+  font-size: 30px;
+  color: grey;
+  margin-inline: 5.5px;
+  user-select: none;
+}
+
+.info-block {
+  display: flex;
+}
+
+.info-block p {
+  font-size: 22px;
+  margin-inline: 2.5px;
+}
+
+.pre-title {
+  color: teal;
+  user-select: none;
+}
+
+.buttons {
+  display: flex;
+  margin: 25px 0;
+}
+
+.buttons button {
+  width: 85px;
+  height: 35px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 150ms;
+  margin-inline: 5px;
+}
+
+.buttons-edit {
+  color: teal;
+  border: 2px solid  teal;
+}
+
+.buttons-remove {
+  color: rgb(210, 0, 0);
+  border: 2px solid rgb(210, 0, 0);
+}
+
+.buttons-edit:hover {
+  color: white;
+  border: 2px solid teal;
+  background-color: teal;
+}
+
+.buttons-remove:hover {
+  color: white;
+  border: 2px solid rgb(210, 0, 0);
+  background-color: rgb(210, 0, 0);
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 6.5px;
+}
+
+.body {
+  font-size: 20px;
+}

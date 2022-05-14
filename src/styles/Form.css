@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.form-title,
+.form-body,
+.form-send {
+  font-size: 24px;
+  margin: 6.5px 0;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 6px;
+}
+
+.form-title {
+  padding: 15px 6.5px;
+  width: 100%;
+  border: 2px solid teal;
+  height: 50px;
+}
+
+.form-body {
+  padding: 15px 6.5px;
+  width: 100%;
+  border: 2px solid teal;
+  resize: none;
+  height: 120px;
+}
+
+.form-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.form-buttons * {
+  margin-inline: 4px;
+}
+
+.form-send {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: teal;
+  border: 2.5px solid teal;
+  transition-duration: 140ms;
+  cursor: pointer;
+}
+
+.form-send:hover {
+  color: white;
+  background-color: teal;
+}
+
+.form-file {
+  display: none;
+}
+
+.form-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}

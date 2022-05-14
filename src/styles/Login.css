@@ -1,0 +1,68 @@
+.login {
+  width: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.login-buttons button,
+.login input {
+  font-family: 'Raleway', sans-serif;
+}
+
+.login-buttons, .signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-buttons button {
+  margin: 8px 0;
+  cursor: pointer;
+  transition-duration: 140ms;
+}
+
+.login-buttons button:first-child {
+  width: 140px;
+  height: 50px;
+  border: 2px solid teal;
+  border-radius: 8px;
+  background-color: white;
+  color: teal;
+  font-size: 20px;
+}
+
+.login-buttons button:first-child:hover {
+  border: 2px solid teal;
+  background-color: teal;
+  color: white;
+}
+
+.to-signup {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+.to-signup:hover {
+  color: teal;
+}
+
+.login-title {
+  font-size: 42px;
+  color: teal;
+  margin-bottom: 15px;
+}
+
+.login-email, .login-password {
+  width: 260px;
+  height: 50px;
+  padding-inline: 8px;
+  font-size: 16px;
+  border: 2px solid teal;
+  margin: -10px 0;
+}

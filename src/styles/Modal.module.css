@@ -1,0 +1,25 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  background-color: white;
+}
+
+.modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 360px;
+  height: 380px;
+  border-radius: 12px;
+}
